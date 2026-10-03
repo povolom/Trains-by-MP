@@ -3,47 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#060b14">
-<title>GO Train commute planner | Marcantonio Povolo</title>
-<meta name="description" content="A GO Train commute planner for students, coming soon. By Marcantonio Povolo.">
-<script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
+<title>Trains by MP</title>
+<meta name="description" content="Trains by MP, coming soon. Pick the trains you take and get calendar entries for them, so your commute sits next to your classes.">
+<meta name="theme-color" content="#0b0f14">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Space+Grotesk:wght@500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Space+Grotesk:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="bar">
-  <div class="wrap bar-row">
-    <span class="brand">GO Train commute planner</span>
-    <a class="back" href="https://marcantoniopovolo.com/projects.html"><svg class="arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M12 8H4M7.5 4.5 4 8l3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> All projects</a>
-  </div>
-</header>
-
+<header class="top"><div class="wrap row">
+  <span class="wordmark"><span class="mark" aria-hidden="true"></span><span class="word">Trains</span><span class="by">by MP</span></span>
+  <a class="back" href="https://marcantoniopovolo.com/apps.html"><svg class="arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M12 8H4M7.5 4.5 4 8l3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> All apps</a>
+</div></header>
 <main id="main" class="wrap">
   <section class="hero">
-    <p class="eyebrow">Coming soon</p>
-    <h1>Pick the right train without refreshing the timetable.</h1>
-    <p class="intro">A planner for students who commute by GO Train. It will line up your class schedule with GO departures and suggest the best train each day.</p>
-    <div class="board" aria-label="Illustration of a departure board. Times are examples, not live data.">
-      <div class="board-row"><span>08:00</span><span>Union Station</span><span class="dim">Example</span></div>
-      <div class="board-row"><span>08:30</span><span>Union Station</span><span class="dim">Example</span></div>
-      <div class="board-row"><span>09:00</span><span>Union Station</span><span class="dim">Example</span></div>
-    </div>
+    <p class="badge">Coming soon</p>
+    <h1>Your GO train trips, straight into your calendar.</h1>
+    <p class="intro">Pick the trains you take and get calendar entries for them, so your commute sits next to your classes.</p>
+    <p class="sub">Schedule data will come from GO Transit&#x27;s free open data, used under Metrolinx&#x27;s terms.</p>
   </section>
-
   <section class="plan" aria-labelledby="h-plan">
     <h2 id="h-plan">How I'm building it</h2>
-    <ol>
-      <li>Write a one-page brief: who it's for, the problem, how I'll measure success and what's out of scope.</li>
-      <li>Survey TMU commuters about what actually slows them down.</li>
-      <li>Build the smallest version that helps, then check whether people keep using it.</li>
-    </ol>
+    <ol><li>Write a one-page brief: who it is for, the problem, how I will measure success and what is out of scope.</li><li>Survey TMU commuters about what actually slows them down.</li><li>Build the smallest version that helps: pick a trip, get a calendar entry.</li></ol>
   </section>
 </main>
-
-<footer class="foot">
-  <div class="wrap"><p>Built by <a href="https://marcantoniopovolo.com" target="_blank" rel="noopener">Marcantonio Povolo</a>. Source on <a href="https://github.com/povolom/GO-Train-Planner" target="_blank" rel="noopener">GitHub</a>.</p></div>
-</footer>
+<footer class="foot"><div class="wrap"><p>Made by <a href="https://marcantoniopovolo.com">Marcantonio Povolo</a>. <a href="https://github.com/povolom/Trains-by-MP">Code on GitHub</a>.</p></div></footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-# Project rules
+# Project rules (Trains by MP)
 
 - Product first: write the brief (`docs/BRIEF.md`) and run the commuter survey before writing app code.
 - Never invent users, survey results or metrics. Every number comes from real responses or from Marcantonio.

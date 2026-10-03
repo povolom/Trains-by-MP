@@ -1,8 +1,8 @@
-# GO Train commute planner
+# Trains by MP
 
-A planner for students who commute by GO Train. It will line up your class schedule with GO departures and suggest the best train each day, so you're not refreshing the timetable between classes.
+Pick the GO trains you take and get calendar entries for them, so your commute sits next to your classes in Apple Calendar. Schedule data will come from GO Transit's free open data, used under Metrolinx's terms.
 
-**Status:** coming soon. **Page:** https://povolom.github.io/GO-Train-Planner/
+**Status:** coming soon. **Page:** https://trains.marcantoniopovolo.com
 
 Built by [Marcantonio Povolo](https://marcantoniopovolo.com), a Computer Engineering student at Toronto Metropolitan University.
 
