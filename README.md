@@ -18,4 +18,5 @@ This is a product-development project, so the problem comes before the code:
 
 | Path | What it is |
 |---|---|
-| `docs/index.html`, `docs/style.css` | The project page, served by GitHub Pages from `main` › `/docs`. Add `?embed=1` to hide the back link when it's shown inside another site. |
+| `site/` | What Cloudflare serves at trains.marcantoniopovolo.com: the coming-soon page (`index.html`), the project page (`about/`), shared styles (`page.css`), icons and favicon. Built by `build_app_pages.py` in my portfolio folder. |
+| `wrangler.jsonc` | Cloudflare Worker settings: serve `site/` at trains.marcantoniopovolo.com. Publish with `npx wrangler deploy`. |
