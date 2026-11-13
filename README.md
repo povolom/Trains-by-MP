@@ -2,7 +2,7 @@
 
 Pick the GO trains you take and get calendar entries for them, so your commute sits next to your classes. Schedule data will come from GO Transit's free open data, used under Metrolinx's terms.
 
-**Status:** coming soon at https://trains.marcantoniopovolo.com · [About the project](https://marcantoniopovolo.com/projects/trains.html) · Open source (MIT)
+**Status:** coming soon at https://trains.marcantoniopovolo.com · [About the project](https://marcantoniopovolo.com/projects/trains) · Open source (MIT)
 
 Built by [Marcantonio Povolo](https://marcantoniopovolo.com), a Computer Engineering student at Toronto Metropolitan University. I decide what it does and review and test each change; AI coding tools help write the code.
 
@@ -18,7 +18,7 @@ This is a product-development project, so the problem comes before the code:
 
 | Path | What it is |
 |---|---|
-| `site/` | The website at trains.marcantoniopovolo.com: the coming-soon page (`index.html`, `style.css`), icons and favicons. `about/` and `_redirects` send the old project page to [marcantoniopovolo.com/projects/trains.html](https://marcantoniopovolo.com/projects/trains.html) |
+| `site/` | The website at trains.marcantoniopovolo.com: the coming-soon page (`index.html`, `style.css`), icons and favicons. `about/` and `_redirects` send the old project page to [marcantoniopovolo.com/projects/trains.html](https://marcantoniopovolo.com/projects/trains) |
 | `worker.js` | The API: anything under `/api/` (for now `/api/status`). Everything else is served from `site/` |
 | `wrangler.jsonc` | Cloudflare settings: `site/` plus `worker.js` at trains.marcantoniopovolo.com |
 | `LICENSE` | MIT: free to use, change and share |

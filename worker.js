@@ -5,7 +5,7 @@ const APP = {
   name: 'Trains by MP',
   status: 'coming soon',
   site: 'https://trains.marcantoniopovolo.com',
-  about: 'https://marcantoniopovolo.com/projects/trains.html',
+  about: 'https://marcantoniopovolo.com/projects/trains',
   code: 'https://github.com/povolom/Trains-by-MP',
 };
 
